@@ -1,0 +1,10 @@
+```mermaid
+flowchart LR
+    U[Manager: KPI Question] --> A[Chat UI in Databricks App]
+    A --> B[Routing Logic]
+    B --> C[Genie: Text-to-SQL]
+    C --> D[Databricks SQL Warehouse: Execute Query]
+    D --> E[Raw KPI Results (aggregates, tables)]
+    E --> F[Analyst Assistant: LangGraph LLM]
+    F --> G[Business Insight + Recommendations]
+    G --> H[Response streamed back to Manager]
