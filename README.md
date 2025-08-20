@@ -6,7 +6,7 @@ flowchart TD
     C --> D[Genie Endpoint for General Chat]
     C --> E[Supervisor Endpoint for Complex Tasks]
 
-    E --> F1[Knowledge Agent]
+
     E --> F2[SQL Agent]
     E --> F3[Tool Agent]
     E --> F4[Other Agents]
