@@ -1,6 +1,6 @@
 ```mermaid
 
-flowchart LR
+flowchart TD
     U[Manager: KPI Question] --> A[Chat UI in Databricks App]
     A --> B[Routing Logic]
     B --> C[Genie: Text-to-SQL]
