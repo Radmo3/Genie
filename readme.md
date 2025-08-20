@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    U[Manager: Asks KPI Question in plain English] --> A[Chat UI in Databricks App: Simple interface for asking questions]
+    U[User: Asks KPI Question in plain English] --> A[Chat UI in Databricks App: Simple interface for asking questions]
     A --> B[Routing Logic: Decides which assistant should handle the request]
     B --> C[Genie Text-to-SQL: Translates English into SQL query]
     C --> D[Databricks SQL Warehouse: Runs query securely on IT KPI data]
