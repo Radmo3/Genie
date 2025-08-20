@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 flowchart TD
     %% User Layer
     A[1. User asks a question] --> B[2. Genie receives input]
